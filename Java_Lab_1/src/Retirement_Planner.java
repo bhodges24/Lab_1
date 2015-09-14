@@ -58,7 +58,7 @@ public class Retirement_Planner {
 		
 		//Display results
 		PV = FinanceLib.pv(r, n, y, f, t);
-		System.out.printf("\nYou need to save a total of: %$.2f", PV);
+		System.out.printf("You need to save a total of: %$.2f", PV);
 		
 		//Calculate monthly payments into retirement fund
 		double PMT;
@@ -70,7 +70,7 @@ public class Retirement_Planner {
 		
 		//Display results
 		PMT = FinanceLib.pmt(r, n, p, f, t);
-		System.out.printf("\nYou need to save a total of: %$.2f", PMT);
+		System.out.printf("You need to save a total of: %$.2f", PMT);
 		
 	
 	}
